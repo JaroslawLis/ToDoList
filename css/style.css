@@ -1,0 +1,42 @@
+body {
+background: url("../img/background-1086840_640.png");
+background-size: cover;
+	
+display: flex;
+justify-content: center;
+align-items: center;
+}
+main {
+    background-color: white;
+}
+main h4 {
+    text-align: center;
+    font-size: 2em;
+}
+.container {
+    margin-top: 50px;
+    max-width: 450px;
+	width: 100%;
+	padding: 25px;
+	
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 62px rgba(0,0,0,0.1)
+}
+.new-task-container {
+    margin-bottom: 30px;
+}
+#task-list {
+    margin: 0;
+	padding: 0;
+	list-style: none;
+    
+}
+#task-list li {
+    margin-bottom: 12px;
+    font-weight: bold;
+    border-bottom: 1px dotted black;
+    
+}
+#task-list li button {
+   float: right;
+}
